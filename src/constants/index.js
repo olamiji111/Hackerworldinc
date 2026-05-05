@@ -59,8 +59,8 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "contact Us",
+    url: "#contact",
     onlyMobile: true,
   },
   {
@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Asset Forensic Recovery",
+  "Threat Mitigation",
+  "Discreet Intelligence Gathering",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,55 +94,54 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Advanced Blockchain Tracing",
+    text: "Implement deep-layer ledger analysis to track anonymized crypto transactions across multiple chains for faster fund recovery.",
+    date: "January 2026",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Zero-Day Exploit Research",
+    text: "Ongoing development of proprietary penetration tools to bypass modern security protocols for authorized account reclamation.",
+    date: "March 2026",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Automated Evidence Vault",
+    text: "Launch a secure, encrypted dashboard for clients to access and download gathered digital evidence in real-time.",
+    date: "April 2026",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Dark Web Intelligence Nodes",
+    text: "Integrating global monitoring nodes to detect and alert clients of leaked personal data or blackmail attempts before they escalate.",
+    date: "May 2026",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
-
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Leveraging advanced forensic automation and ironclad encryption, we provide the ultimate framework for rapid asset recovery and discreet digital intelligence.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Strategic Threat Integration",
+    text: "Seamlessly aligning our specialized recovery tools with your specific case requirements for rapid execution.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Automated Evidence Tracing",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Fortified Operational Security",
   },
 ];
 
@@ -208,35 +207,35 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Initial Consultation",
+    description: "Security assessment, case evaluation, vulnerability scanning",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Comprehensive digital footprint and vulnerability assessment",
+      "Initial case analysis and feasibility study for recovery",
+      "Ability to explore our white-hat services without upfront cost",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Priority Recovery",
+    description: "Active threat mitigation, asset tracking, priority support",
+    price: "99.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Advanced blockchain forensics and digital asset tracking",
+      "Real-time monitoring and active mitigation of blackmail threats",
+      "Priority status for rapid evidence gathering and reporting",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Full-Scale Operation",
+    description: "Custom digital intel, forensic suites, dedicated operative",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Bespoke ethical hacking operations tailored to complex cases",
+      "Advanced decryption and wallet recovery for high-value assets",
+      "Dedicated case manager and direct remote access oversight",
     ],
   },
 ];
@@ -244,16 +243,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Ethical Hacking & Monitoring",
+    text: "Utilize discreet digital oversight and professional penetration testing to secure your interests or gather critical information.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Blackmail Mitigation",
+    text: "Take back control of your digital identity by permanently deleting social accounts used for harassment or extortion.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +260,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Investment Asset Recovery",
+    text: "Trace and reclaim lost capital or stolen crypto funds through advanced blockchain forensics and recovery protocols.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Crypto Wallet Recovery",
+    text: "Regain access to locked or compromised cryptocurrency wallets using specialized technical decryption and seed phrase recovery.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,22 +277,21 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Discreet Evidence Gathering",
+    text: "Obtain undeniable proof across social platforms and remote devices to confirm suspicions regarding partner infidelity.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "General White Hat Expertise",
+    text: "Access a wide spectrum of elite cybersecurity solutions provided by verified ethical hacking specialists.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
-
 export const socials = [
   {
     id: "0",

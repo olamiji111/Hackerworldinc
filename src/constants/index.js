@@ -209,7 +209,7 @@ export const pricing = [
     id: "0",
     title: "Initial Consultation",
     description: "Security assessment, case evaluation, vulnerability scanning",
-    price: "0",
+    price: "",
     features: [
       "Comprehensive digital footprint and vulnerability assessment",
       "Initial case analysis and feasibility study for recovery",
@@ -220,7 +220,7 @@ export const pricing = [
     id: "1",
     title: "Priority Recovery",
     description: "Active threat mitigation, asset tracking, priority support",
-    price: "99.99",
+    price: "",
     features: [
       "Advanced blockchain forensics and digital asset tracking",
       "Real-time monitoring and active mitigation of blackmail threats",

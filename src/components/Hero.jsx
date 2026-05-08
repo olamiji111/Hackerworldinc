@@ -41,7 +41,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Discover the power of AI and ethicl hacking with HackWorldInc.
+            Discover the power of AI and ethical hacking with HackWorldInc.
             where cybersecurity expertise meets innovation
           </p>
           <Button onClick={handleOpenChat} white>

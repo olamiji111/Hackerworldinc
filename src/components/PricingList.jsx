@@ -27,11 +27,7 @@ const PricingList = () => {
             )}
           </div>
 
-          <a
-            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=Hackworldinc@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="mailto:Hackworldinc@gmail.com">
             <Button
               className="w-full mb-6"
               white={!!item.price}

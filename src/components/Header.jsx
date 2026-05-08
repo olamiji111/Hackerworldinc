@@ -71,11 +71,7 @@ const Header = () => {
         >
           FAQ
         </a>
-        <a
-          href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=Hackworldinc@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="mailto:Hackworldinc@gmail.com">
           <Button className="hidden lg:flex">
             Contact Us
           </Button>

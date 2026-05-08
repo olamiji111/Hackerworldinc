@@ -28,8 +28,9 @@ const PricingList = () => {
           </div>
 
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=Hackworldinc@gmail.com"
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=Hackworldinc@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Button
               className="w-full mb-6"

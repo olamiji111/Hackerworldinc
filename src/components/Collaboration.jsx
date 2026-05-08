@@ -28,8 +28,9 @@ const Collaboration = () => {
             ))}
           </ul>
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=Hackworldinc@gmail.com"
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=Hackworldinc@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Button>Contact Us now</Button>
           </a>

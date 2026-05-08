@@ -27,8 +27,13 @@ const Collaboration = () => {
               </li>
             ))}
           </ul>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=Hackworldinc@gmail.com"
+            target="_blank"
+          >
+            <Button>Contact Us now</Button>
+          </a>
 
-          <Button>Contact Us now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

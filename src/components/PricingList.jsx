@@ -27,13 +27,18 @@ const PricingList = () => {
             )}
           </div>
 
-          <Button
-            className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
-            white={!!item.price}
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=Hackworldinc@gmail.com"
+            target="_blank"
           >
-            {item.price ? "Get started" : "Contact us"}
-          </Button>
+            <Button
+              className="w-full mb-6"
+              white={!!item.price}
+            >
+              {item.price ? "Get started" : "Contact us"}
+            </Button>
+
+          </a>
 
           <ul>
             {item.features.map((feature, index) => (

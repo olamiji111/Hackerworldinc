@@ -7,11 +7,16 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
+
 
 const Hero = () => {
   const parallaxRef = useRef(null);
 
+  const handleOpenChat = () => {
+    if (window.Tawk_API) {
+      window.Tawk_API.maximize();
+    }
+  };
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem]"
@@ -39,7 +44,7 @@ const Hero = () => {
             Discover the power of AI and ethicl hacking with HackWorldInc.
             where cybersecurity expertise meets innovation
           </p>
-          <Button href="/pricing" white>
+          <Button onClick={handleOpenChat} white>
             Get started
           </Button>
         </div>

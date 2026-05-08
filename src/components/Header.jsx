@@ -12,6 +12,7 @@ const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
+
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -70,10 +71,14 @@ const Header = () => {
         >
           FAQ
         </a>
-        <Button className="hidden lg:flex" href="#login">
-          Contact Us
-        </Button>
-
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=Hackworldinc@gmail.com"
+          target="_blank"
+        >
+          <Button className="hidden lg:flex">
+            Contact Us
+          </Button>
+        </a>
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
